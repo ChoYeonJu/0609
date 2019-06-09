@@ -1,0 +1,30 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.accordion ul li a{
+    display: block;
+}
+
+.accordion > ul > li > a {
+    color: #fff;
+    padding: 20px 44px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #eb6b60;
+}
+
+.accordion > ul > li.open > a {
+    background-color: #eb6b60;
+}
+
+.accordion ul ul li a{
+    padding: 14px 44px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff;
+}

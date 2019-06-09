@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{ list-style: none; }
+img { display: block; }
+
+.slider_container{
+    position: relative;
+    float: left;
+}
+
+.slider_nav{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #000 url("images/6-05-00.gif") no-repeat left 50%;
+    width: 40px;
+    opacity: 0.5;
+}
+
+.slider_nav:active{
+    opacity: 1.0;
+}
+.slider_nav.next{
+    left: auto;
+    right: 0;
+    background-position: right 50%;
+}
